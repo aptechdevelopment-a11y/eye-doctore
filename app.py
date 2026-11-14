@@ -218,6 +218,44 @@ h1, h2, h3 {
     color: #FFFFFF;
 }
 
+.st-emotion-cache-14vh5up {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    pointer-events: auto;
+    position: relative;
+    z-index: 999990;
+    background: #000 !important;
+}
+
+.st-emotion-cache-6shykm {
+    width: 100%;
+    padding: 1rem 1rem 3.5rem;
+    background: #000 !important;
+    max-width: 736px;
+}
+
+.st-emotion-cache-1bdk92a {
+    background-color: #ffff;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    flex: 1 1 0%;
+    padding: 0.75rem 1rem;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+<style>
+@su
+
 </style>
 
 
