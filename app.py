@@ -105,12 +105,13 @@ or treatment.
 
 st.markdown("""
 
+
 <style>
 
-/* Main Dark Background */
+/* Main Background */
 .stApp {
-    background-color: #0B1120;
-    color: #E5E7EB;
+    background-color: #0A192F;
+    color: #FFFFFF;
 }
 
 /* Main Content */
@@ -122,7 +123,7 @@ st.markdown("""
 /* Header */
 .main-title {
     text-align: center;
-    color: #22D3EE;
+    color: #FFFFFF;
     font-size: 42px;
     font-weight: 800;
     margin-bottom: 8px;
@@ -131,20 +132,20 @@ st.markdown("""
 
 .subtitle {
     text-align: center;
-    color: #94A3B8;
+    color: #CBD5E1;
     font-size: 16px;
     margin-bottom: 25px;
 }
 
 /* Divider */
 hr {
-    border-color: #263449;
+    border-color: #2563EB;
 }
 
 /* Chat Messages */
 [data-testid="stChatMessage"] {
-    background-color: #172235;
-    border: 1px solid #263449;
+    background-color: #142B4A;
+    border: 1px solid #2563EB;
     border-radius: 15px;
     padding: 16px;
     margin-bottom: 12px;
@@ -152,27 +153,27 @@ hr {
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: #111C2E;
-    border-right: 1px solid #263449;
+    background-color: #10233F;
+    border-right: 1px solid #2563EB;
 }
 
 /* Sidebar Headings */
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
 [data-testid="stSidebar"] h3 {
-    color: #22D3EE;
+    color: #FFFFFF;
 }
 
 /* Normal Text */
 .stMarkdown p {
-    color: #D1D5DB;
+    color: #FFFFFF;
 }
 
 /* Buttons */
 .stButton > button {
-    background-color: #172235;
-    color: #22D3EE;
-    border: 1px solid #22D3EE;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: 1px solid #3B82F6;
     border-radius: 10px;
     padding: 10px;
     font-weight: 600;
@@ -181,43 +182,44 @@ hr {
 
 /* Button Hover */
 .stButton > button:hover {
-    background-color: #22D3EE;
-    color: #0B1120;
-    border: 1px solid #22D3EE;
+    background-color: #FFFFFF;
+    color: #1D4ED8;
+    border: 1px solid #FFFFFF;
 }
 
 /* Chat Input */
 [data-testid="stChatInput"] {
-    background-color: #172235;
-    border: 1px solid #22D3EE;
+    background-color: #142B4A;
+    border: 1px solid #2563EB;
     border-radius: 14px;
 }
 
 /* Info Box */
 [data-testid="stAlert"] {
-    background-color: #172235;
-    border: 1px solid #263449;
+    background-color: #142B4A;
+    border: 1px solid #2563EB;
     border-radius: 12px;
-    color: #E5E7EB;
+    color: #FFFFFF;
 }
 
 /* Spinner */
 .stSpinner > div {
-    border-top-color: #22D3EE;
+    border-top-color: #2563EB;
 }
 
 /* Text Input */
 input, textarea {
-    background-color: #172235 !important;
-    color: white !important;
+    background-color: #142B4A !important;
+    color: #FFFFFF !important;
 }
 
 /* Headings */
 h1, h2, h3 {
-    color: #E2E8F0;
+    color: #FFFFFF;
 }
 
 </style>
+
 
 """, unsafe_allow_html=True)
 
