@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import streamlit as st
+=======
+>>>>>>> 06d3811c126af72ce797c22c00045d4b48ba94f1
 from openai import OpenAI
+import streamlit as st
 
 # ==========================================
 # PAGE CONFIGURATION
